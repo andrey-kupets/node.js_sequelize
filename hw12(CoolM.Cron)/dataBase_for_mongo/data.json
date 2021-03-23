@@ -1,0 +1,25 @@
+[
+  [
+    {"id": 1, "model": "ferrari", "edition": 2015, "power_hp": 220, "color": "red"},
+    {"id": 2, "model": "toyota", "edition": 2011, "power_hp": 180, "color": "black"},
+    {"id": 3, "model": "chrysler", "edition": 2012, "power_hp": 210, "color": "blue"},
+    {"id": 4, "model": "honda", "edition": 2017, "power_hp": 160, "color": "white"},
+    {"id": 5, "model": "nissan", "edition": 2019, "power_hp": 150, "color": "green"},
+    {"id": 6, "model": "volvo", "edition": 2016, "power_hp": 170, "color": "grey"},
+    {"id": 7, "model": "hammer", "edition": 2014, "power_hp": 250, "color": "hakki"},
+    {"id": 8, "model": "renault", "edition": 2015, "power_hp": 170, "color": "azure"},
+    {"id": 9, "model": "mitsubishi", "edition": 2013, "power_hp": 200, "color": "red"},
+    {"id": 10, "model": "ford", "edition": 2016, "power_hp": 180, "color": "blue"}
+  ],
+
+  [
+    { "name": "vasya", "email": "vasya@gmail.com", "password": "vasya111" },
+    { "name": "manya", "email": "manya@gmail.com", "password": "manya111" },
+    { "name": "kolya", "email": "kolya@gmail.com", "password": "kolya111" },
+    { "name": "ostap", "email": "ostap@gmail.com", "password": "ostap111" },
+    { "name": "violeta", "email": "violeta@gmail.com", "password": "violeta111" },
+    { "name": "sonya", "email": "sonya@gmail.com", "password": "sonya111" },
+    { "name": "marina", "email": "marina@gmail.com", "password": "marina111" },
+    { "name": "petya", "email": "petya@gmail.com", "password": "petya111" }
+  ]
+]

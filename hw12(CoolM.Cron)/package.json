@@ -1,0 +1,38 @@
+{
+  "name": "hw12",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "email-templates": "^8.0.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs-extra": "^9.1.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.5.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.5.1",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "../node_modules/.bin/pm2 kill && pm2 start hw10(Sequelize)/app.js --name L10 --watch",
+    "first": "npx sequelize-cli db:migrate && nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "hw12(CoolM.Cron)"
+  },
+  "description": ""
+}
