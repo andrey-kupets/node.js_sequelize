@@ -2,6 +2,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const fileUpload = require('express-fileupload');
 const mongoose = require('mongoose');
+const morgan = require('morgan');
 const path = require('path');
 
 dotenv.config({ path: path.join(process.cwd(), '../.env') });
@@ -20,6 +21,7 @@ const app = express();
 
 _connectDB();
 
+app.use(morgan('dev'));
 app.use(fileUpload());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

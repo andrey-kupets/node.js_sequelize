@@ -6,3 +6,29 @@
   "level": "error",
   "timestamp": "2021-03-23 21:34:05"
 }
+{
+  "message": {
+    "message": "",
+    "status": 401
+  },
+  "level": "error"
+}
+{
+  "message": "Cannot set headers after they are sent to the client",
+  "level": "error"
+}
+{
+  "message": "Cannot convert undefined or null to object",
+  "level": "error"
+}
+{
+  "message": "Cannot convert undefined or null to object",
+  "level": "error"
+}
+{
+  "message": {
+    "message": "",
+    "status": 400
+  },
+  "level": "error"
+}
