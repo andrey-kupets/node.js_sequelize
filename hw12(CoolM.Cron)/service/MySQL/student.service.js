@@ -18,10 +18,22 @@ const db = require('../../dataBase/MySQL').getInstance();
 const { dataBaseTablesEnum: { STUDENT } } = require('../../constant');
 
 module.exports = {
-    findAll: () => {
+    findAll: (query) => {
         const Student = db.getModel(STUDENT);
 
-        return Student.findAll();
+        return Student.findAll({ where: query });
+    },
+
+    findStuById: (stuId) => {
+        const Student = db.getModel(STUDENT);
+
+        return Student.findByPk(stuId);
+    },
+
+    findStu: (stuObj) => {
+        const Student = db.getModel(STUDENT);
+
+        return Student.findOne({ where: stuObj });
     },
 
     createStu: (studentObj, transaction) => {

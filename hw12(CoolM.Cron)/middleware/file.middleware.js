@@ -19,7 +19,7 @@ const {
 module.exports = {
     checkFile: (req, res, next) => {
         try {
-            const { files } = req;
+            const { files = {} } = req;
 
             const docs = [];
             const photos = [];

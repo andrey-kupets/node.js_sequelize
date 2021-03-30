@@ -4,5 +4,6 @@ module.exports = {
     directoriesEnum: require('./directories.enum'),
     emailActionsEnum: require('./emailActions.enum'),
     regexpEnum: require('./regexp.enum'),
-    responseCodesEnum: require('./responseCodes.enum')
+    responseCodesEnum: require('./responseCodes.enum'),
+    rolesEnum: require('./roles.enum')
 };

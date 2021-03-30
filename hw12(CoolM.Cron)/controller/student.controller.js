@@ -7,7 +7,7 @@ const { studentMsg: { confirmMsg: { STUDENT_CREATED, STUDENT_UPDATED } } } = req
 module.exports = {
     getAll: async (req, res, next) => {
         try {
-            const students = await studentService.findAll();
+            const students = await studentService.findAll(req.query);
 
             res.status(responseCodesEnum.OK).json(students);
         } catch (e) {

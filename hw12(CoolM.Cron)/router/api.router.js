@@ -1,9 +1,10 @@
 const router = require('express').Router();
 
 const {
- authRouter, carRouter, studentRouter, userRouter
+ adminRouter, authRouter, carRouter, studentRouter, userRouter
 } = require('.');
 
+router.use('/admin', adminRouter);
 router.use('/auth', authRouter);
 router.use('/cars', carRouter);
 router.use('/students', studentRouter);

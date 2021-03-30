@@ -2,14 +2,15 @@ const router = require('express').Router();
 
 const { studentController } = require('../controller');
 const { authMiddlewares } = require('../middleware');
+const { rolesEnum: { ADMIN, MANAGER, USER } } = require('../constant');
 
 router.route('/')
     .post(
         authMiddlewares.checkAccessToken,
         authMiddlewares.checkForRole([
-        'admin',
-        'manager',
-        'user'
+            ADMIN,
+            MANAGER,
+            USER
         ]),
         studentController.createStudent
     )

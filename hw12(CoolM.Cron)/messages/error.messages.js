@@ -139,4 +139,10 @@ module.exports = {
         en: 'Not valid photo type',
         ua: 'Неприпустиме фото',
     },
+
+    NO_STUDENTS: {
+        customCode: 40018,
+        en: 'There are no students',
+        ua: 'Таких студентыв немає'
+    },
 };
